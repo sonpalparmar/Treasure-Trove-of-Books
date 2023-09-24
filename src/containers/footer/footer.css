@@ -1,0 +1,31 @@
+.footer{
+    height: 60px;
+    background-color: #ff6d60;
+    
+}
+.footer_item{  
+    display: flex;
+    justify-content: center;    
+    list-style: none;
+}
+
+.footer_item a li{
+    margin: 15px;
+}
+.footer_item div{
+    margin: 15px;
+}
+@media only screen and (max-width: 450px) {
+    .footer{
+        height: 40px;
+        background-color: #ff6d60;
+        
+    }
+    .footer_item a li{
+        margin: 6px;
+    }
+    .footer_item div{
+        margin: 6px;
+    }
+
+}

@@ -1,0 +1,68 @@
+.searchBar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.searchBar input{
+    height: 41px;
+    width: 500px;
+    display: inline;
+    border-radius: 10px;
+    text-align: center;
+    color: #FF6D60;
+    font-size: 20px;
+}
+.searchBar button{
+    height: 46px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;    
+}
+
+.card-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+       
+}
+.card{
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+    border: 2px solid #FF6D60;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 750px){
+    .searchBar input{
+        height: 35px;
+        width: 400px;
+    }
+    .searchBar button{
+        height: 40px;
+        padding: 8px;
+    }
+}
+@media only screen and (max-width: 620px){
+    .searchBar input{
+        height: 28px;
+        width: 330px;
+    }
+    .searchBar button{
+        height: 33px;
+        padding: 5px;
+    }
+}

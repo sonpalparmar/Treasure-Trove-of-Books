@@ -1,0 +1,123 @@
+.navbar{
+    margin: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF6D60;
+    box-shadow: 5px 5px 5px 5px rgb(248, 239, 228);
+}
+.nav{    
+    color: #052e16;
+    font-size: 30px; 
+    padding: 10px;   
+}
+.navbar_menu{ 
+    padding: 10px;   
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;    
+}
+.navbar_menu_item{
+  padding-right: 10px;   
+}   
+
+.navbar_menu_item_link{    
+    padding: 5px;
+    text-align: center;
+    color: #b91c1c;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #b91c1c;
+    border-radius: 5px;  
+    
+}
+.navbar_menu_item_link:hover{
+    color:#f5e6e6;
+    background-color: #b91c1c;    
+}
+
+.item_img{
+    
+    margin: 0;
+    padding: 0;
+    height: 70%;
+}
+.item_img img{
+    height: 100%;
+    width: 100%;
+}
+.item{
+    margin: 0;
+    padding: 0;
+    height: 30%;
+    overflow: hidden;
+}
+@media only screen and (max-width: 750px) {
+    .navbar{        
+        height: 50px;
+    }
+    .nav{
+        padding: 5px;
+        font-size: 25px;
+        text-overflow: ellipsis;
+    }
+    .navbar_menu_item{
+        padding-right: 8px;   
+      }
+    .navbar_menu{
+        padding: 0;
+    }
+    .navbar_menu_item_link{
+        
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .navbar{        
+        height: 40px;
+    }
+    .nav{
+        padding: 3px;
+        font-size: 15px;
+        text-overflow: ellipsis;
+    }
+    .navbar_menu_item{
+        padding-right: 5px;   
+      }
+    .navbar_menu{
+        margin: 4px;
+        padding: 0;
+    }
+    .navbar_menu_item_link{
+        
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .navbar{        
+        height: 30px;
+    }
+    .nav{
+        padding: 2px;
+        font-size: 12px;
+        text-overflow: ellipsis;
+    }
+    .navbar_menu_item{
+        padding-right: 3px;   
+      }
+    .navbar_menu{
+        margin: 2px;
+        padding: 0;
+    }
+    .navbar_menu_item_link{
+        
+        font-size: 8px;
+    }
+}
+
+
+.selected{
+    color:#f5e6e6;
+    background-color: #b91c1c;
+}
